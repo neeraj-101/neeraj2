@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Font family -->
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <div class="main_container">
+
+    <div class="text_container col-7">
+      <div class="text_area">
+        <h1 class="heading_field"><span class="we">We're</span> coming soon</h1> <!-- heading_field close -->
+        <p class="text_field">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p><!-- text_field close -->
+
+        <input type="email" placeholder="Email Address" name="email" id="email_field" onclick="rem()">
+        <img class="arrow_img" src="images/icon-arrow.svg" alt="" onclick="chkform()">
+        <div id="display_error"></div>
+
+      </div><!-- text_area close -->
+    </div><!-- text_container close -->
+
+    <img class="img_field col-5" src="images/hero-desktop.jpg" alt="">
+    <img class="img_field_mobile col-5" src="images/hero-mobile.jpg" alt="">
+
+  </div><!--  main_container close -->
+
+  <script src="index.js"></script>
+</body>
+
+</html>
